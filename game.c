@@ -23,7 +23,7 @@ if(strcmp(player1, "pedra") == 0){
             printf("EMPATE!\n");
             system("pause");
         }
-}else if(player1 == "tesoura"){
+}else if(strcmp(player1, "tesoura") == 0){
     if(strcmp(player2, "tesoura") == 0){
             printf("EMPATE!\n");
             system("pause");
@@ -34,13 +34,13 @@ if(strcmp(player1, "pedra") == 0){
             printf("O jogador 2 GANHOU!\n");
             system("pause");
         }
-}else if(player1 == "papel"){
+}else if(strcmp(player1, "papel") == 0){
   if(strcmp(player2, "tesoura") == 0){
             printf("O jogador 2 GANHOU!\n");
             system("pause");
         }else if(strcmp(player2, "papel") == 0){
             printf("EMPATE!\n");
-            system("pausre");
+            system("pause");
         }else if(strcmp(player2, "pedra") == 0){
             printf("O jogador 1 GANHOU!\n");
             system("pause");
